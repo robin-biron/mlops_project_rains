@@ -5,3 +5,8 @@ import secrets
 from enum import Enum
 from typing import Optional, Set
 from fastapi.responses import JSONResponse
+
+
+api = FastAPI(title='Rain prediction for tomorrow @Datascientest')
+
+
