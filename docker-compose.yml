@@ -1,0 +1,16 @@
+version: ''
+
+services:
+  myapp:
+    image: rains-app
+    container_name: rain-api
+
+  myapp-authorization-test:
+    image: author_test
+    container_name: rain-author-test
+  
+  myapp-model-test:
+    image: model_test
+    container_name: rain-model-test
+
+   
